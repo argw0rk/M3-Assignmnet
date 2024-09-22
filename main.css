@@ -49,3 +49,17 @@ header > h1{
   font-weight: 400;
   font-style: normal;
 }
+/*unvisted link*/
+.right a:link{
+	color:#50373A;
+	text-decoration: none;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+/*visited link*/
+.right a:hover{
+	font-size: 1.1em
+}
+footer a:link{
+	text-decoration: none;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
