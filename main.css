@@ -89,19 +89,22 @@ footer a:link{
 }
 
 /*Navigtion bar code */
-ul {
+nav{
+	margin: 0 0 20px 0 
+}
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #97AAA9;
 }
 
-li {
-  float: left;
+nav li {
+  float: right;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -109,20 +112,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+nav li a:hover:not(.active) {
+  background-color:#5C9897;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #0B1517;
 }
-</style>
-</head>
-<body>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
