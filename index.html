@@ -7,7 +7,44 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<!--STYLE CODES-->	
+	<!--flex box-->
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: 
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+	 <!--Table with dolphin info-->
+<div id="container2"><style> 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #003;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #155655;
+	} </style></div>
 </head>
+	
+	
 <body>
 <div id="container">
   <header>
@@ -37,24 +74,7 @@
 	</article>
   </section>
   
-</div>  <!--Table with dolphin info-->
-<div id="container2"><style> 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #155655;
-}
-</style>
+<!--table with dolphin info-->
   <article class="left"> <a style= "width: 300px; height: 200px;"></a>
 						<table>
 						  <caption>
@@ -73,7 +93,7 @@ tr:nth-child(even) {
 						</table>
 					  </article>
   <article class="left"> <strong> A video talking about white-sided dolphins </strong> <!--Youtube video-->
-	<iframe width="360" height="225" src="https://www.youtube.com/embed/g7Ic1UhirR0?si=qJblOMPh7R71xALz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="290" height="185" src="https://www.youtube.com/embed/g7Ic1UhirR0?si=qJblOMPh7R71xALz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </article>
 </div>
 	<div id="container3"> <!--Java script feeding dolphin-->
@@ -81,7 +101,7 @@ tr:nth-child(even) {
 							<button onclick="document.getElementById('dolphin').src='Images/feedingdolphin2.jpg'">feed</button>
 							<img id="dolphin" src="Images/feedingdolphion1.jpg" style="width:300px;" alt="feedingdolphin">
 							<button onclick="document.getElementById('dolphin').src='Images/feedingdolphion1.jpg'">dont feed</button> </nav>
-<!--Forms-->		
+<!--Forms, name and subject-->		
 <section>
 		<article class="left">
 	<form action="">
@@ -104,17 +124,32 @@ tr:nth-child(even) {
 		</section>
 		
 		<!--html svg graphic"that pink heart"-->
-		<svg width="300" height="200">
+	<svg width="300" height="200">
   <polygon points="100,180 20,80 20,50 60,20 100,80"
   style="fill:pink; stroke:purple;stroke-width:8;fill-rule:evenodd;" />
 			<svg width="300" height="200">
 				 <polygon points="100,180,180,70,110,0,110,10 100,70"
-  style="fill:pink; stroke:purple;stroke-width:8;fill-rule:evenodd;"/>
-				</div>
+						  style="fill:pink; stroke:purple;stroke-width:8;fill-rule:evenodd;"/>
+				
+		
+		<!--Flex box-->
+		<div class="flex-container">
+  <div>block 1</div>
+  <div>block 2</div>
+  <div>block 3</div>  
+  <div>block 4</div>
+  <div>block 5</div>
+  <div>block 6</div>  
+ 
+</div>
+		
+		
+		
+		
 	<footer><!--link added on to text--><a href="https://argwork.artstation.com/"> copyright Aracely Garcia 2024 </a><br><!--audio--> 
 		<audio controls>
   <source src="assets/erokia__nilniutd.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio> </footer>
-</body>
+		</audio></footer>
+		</svg></body>
 </html>
