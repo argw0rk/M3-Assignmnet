@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+/*<!--background-->*/
+*{
+	box-sizing:border-box;
+}
+body{
+	background: url("Images/waterbg.jpg") no-repeat fixed top right;
+	
+}
+#container{ 
+width:800px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.30)
+}
+
+/*Navigtion bar code */
+nav{
+	margin: 0 0 20px 0 
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #97AAA9;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color:#5C9897;
+}
+
+.active {
+  background-color: #0B1517;
+}
